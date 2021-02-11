@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GameHunter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="WebCss.css"> 
+    
+</head>
+<body>
+
+<div class="header">
+    <img src="Logo_Design_4_Old_Neon.png">
+  <h2 style="text-transform: uppercase">Game Hunter a website that brings the news to you</h2>
+    </div>
+    
+<div class ="topnav">
+  <button class="ps4button">PS4 Games</button>  
+  <button class="Xboxbutton">Xbox Games</button>
+  <button class="PCbutton">PC Games</button>   
+    <div class="dropdown">
+    <button class="menudropbutton">MENU</button>
+    <div class="dropdowncontent">
+        <ul>
+            <li><a href="#" target="_blank">Forum</a></li>
+            <li><a href="#" target="_blank">FanArt</a></li>
+            <li><a href="#" target="_blank">More Information</a></li>
+        </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TOP RATED GAMES THIS WEEK</h2>
+      <h5>The most up voted games this week by gamers. 4th Feb, 2021.</h5>
+      <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/amp_blog_image_large/public/blog/csm-blog/parentsultimateguide-minecraft-blog.jpg?itok=2beDaNo7"  alt="Image of most popular game called Minecraft"/>
+        <h1 style="text-transform: uppercase" ><strong>Minecraft</strong></h1>
+      <p>Minecraft is a 3D sandbox game that has no specific goals to accomplish, allowing players a large amount of freedom in choosing how to play the game. However, there is an achievement system, known as "advancements" in the Java Edition of the game, and "trophies" on the PlayStation ports. Gameplay is in the first-person perspective by default, but players have the option for third-person perspective. The game world is composed of rough 3D objects—mainly cubes and fluids, and commonly called "blocks"—representing various materials, such as dirt, stone, ores, tree trunks, water, and lava. The core gameplay revolves around picking up and placing these objects. These blocks are arranged in a 3D grid, while players can move freely around the world. Players can "mine" blocks and then place them elsewhere, enabling them to build things. Many commentators have described the game's physics system as unrealistic.<a href="https://www.minecraft.net/en-us/" target="_blank">Link to a Game</a></p>
+    </div>
+    <div class="card">
+      <h2>REVIEW</h2>
+      <h5><strong>Call of Duty Review</strong></h5>
+      <img src="https://cdn-wp.thesportsrush.com/2020/09/cod-warzopne.jpg" alt="Call of Duty">
+      <p>Call of Duty: Warzone is a free-to-play battle royale video game released on March 10, 2020, for PlayStation 4, Xbox One, and Microsoft Windows. The game is a part of the 2019 title Call of Duty: Modern Warfare but does not require purchase of it and is introduced during Season 2 of Modern Warfare content. Warzone was developed by Infinity Ward and Raven Software and published by Activision.[1] Warzone allows online multiplayer combat among 150 players, although some limited-time game modes support 200 players. The game features both cross-platform play and cross-platform progression between three games.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About us</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Description about the website</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+        <a href="https://worldofwarcraft.com/en-us/" target="_blank">
+      <img src="https://cdn-products.eneba.com/resized-products/M5MajLJg5n_7D-XR0ycrv2i9_USi4p5Ux15sAx-6d74_350x200_2x-0.jpeg" width="80%" height="80%" alt="picture of World of Warcraft"/>
+        </a>
+        <br>
+        <a href="https://playvalorant.com/en-gb/" target="_blank">
+            <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt85aff7bf01140acc/5e572c0309113f0d3a852224/share.jpg" width="80%" height="280" alt="Valorant"/>
+        </a>
+    </div>
+      <br>
+    <div class="card">
+      <h3>Follow us</h3>
+      <p>Text</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer-basic">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Social Media</a></li>
+            </ul>
+            <p class="copyright">GameHunter © 2021</p>
+        </footer>
+    </div>
+
+</body>
+</html>
