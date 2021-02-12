@@ -14,23 +14,30 @@
     </div>
     
 <div class ="topnav">
+    
   <button class="ps4button">PS4 Games</button>  
   <button class="Xboxbutton">Xbox Games</button>
   <button class="PCbutton">PC Games</button>   
     <div class="dropdown">
-    <button class="menudropbutton">MENU</button>
-    <div class="dropdowncontent">
-        <ul>
-            <li><a href="#" target="_blank">Forum</a></li>
-            <li><a href="#" target="_blank">FanArt</a></li>
-            <li><a href="#" target="_blank">More Information</a></li>
-        </ul>
-        </div>
-    </div>
+        <button class="menudropbutton">Main Menu</button>    
+        <div class="dropdowncontent">
+        <a href="index.html">Write A Review</a>
+        <a href="index.html">Blog Posts</a>
+        <a href="index.html">About Us</a>
+        </div>        
+    </div> 
 </div>
 
 <div class="row">
   <div class="leftcolumn">
+      <div class="card">
+          <h2>CYBERPUNK:2077 GAMEPLAY</h2>
+        <video controls width="1000px" height="600px">
+            <source src="CyberPunk_GamePlay_Trim.mp4" type="video/mp4" >
+        </video>
+          <h5>Game Description</h5>
+          <p>Cyberpunk 2077 is an open-world, action-adventure video game, developed and published by CD Projekt. Initially released on December 10th, 2020, Cyberpunk has captured the heart of many gamers worldwide. The game takes place in Night City, where players assume the first-person perspective of their own fully customisable character known as ‘V’. The game can be completed in stealth mode or without killing anyone, with non-lethal weapon options available. Night City consists of six regions for players to explore. The game is available on PlayStation 5, Xbox Series X and Series S, PlayStation 4, Xbox One, Microsoft Windows and Google Stadia.</p>
+      </div>
     <div class="card">
       <h2>TOP RATED GAMES THIS WEEK</h2>
       <h5>The most up voted games this week by gamers. 4th Feb, 2021.</h5>
@@ -40,9 +47,40 @@
     </div>
     <div class="card">
       <h2>REVIEW</h2>
-      <h5><strong>Call of Duty Review</strong></h5>
+      <h5><strong>Call of Duty: Warzone Review</strong></h5>
       <img src="https://cdn-wp.thesportsrush.com/2020/09/cod-warzopne.jpg" alt="Call of Duty">
-      <p>Call of Duty: Warzone is a free-to-play battle royale video game released on March 10, 2020, for PlayStation 4, Xbox One, and Microsoft Windows. The game is a part of the 2019 title Call of Duty: Modern Warfare but does not require purchase of it and is introduced during Season 2 of Modern Warfare content. Warzone was developed by Infinity Ward and Raven Software and published by Activision.[1] Warzone allows online multiplayer combat among 150 players, although some limited-time game modes support 200 players. The game features both cross-platform play and cross-platform progression between three games.</p>
+      <h4>What is Call of Duty: Warzone?</h4>
+        <p>Warzone is the new massive combat arena within Call of Duty: Modern Warfare, completely free for all players, across all available platforms. Explore a massive battleground with two new modes to play – a Battle Royale mode and Plunder, an all-new frenetic fight for cold-hard Cash – experience the signature Modern Warfare gameplay with up to 150 players. Drop in, armor up, loot for rewards, and battle your way to the top Cross-platform playing is available as well, don't wait login to a Battle.net account and invite those playstation4 friends</p>
+        <br>
+        <p>If you're having trouble setting up cross-platform click <a href="https://www.gamesradar.com/call-of-duty-warzone-crossplay/" target="_blank">here</a></p>
+        <br>
+        <h4>Quick Guide on the game</h4>
+        <p>1.Landing: after entering a game you will be flying in a plane above the whole map,the direction of where is the plane going can be found by toogling "Map". When you decide to leave the plane and fall to your selected place you have a chance to pop out a parachute which will make your fall much slower and help you guide yourself on the ground more safely, however there comes an issue that other players can shoot at you when falling even though their is most likely to be really bad when flying.</p>
+        <br>
+        <p>2.Choosing a gun: When landed look for as many boxes as you can, as boxes can contain different guns and cash, which can be helpfull towards buying additional help from shop such as ammo box or armor box. Orange boxes mean that a legendary gun will most likely be located in it.</p>
+        <br>
+        <p>3.Different strategies: Some players decide to hide as much as possible meaning surviving the longer brings you a closer chance to winning, however most players chooce to play aggressive and shoot everything in their path, based on the gun that you choose which can vary from Sniper, Rifle, SMG, ShotGun will change your playstyle. To read more about this click <a href="https://www.callofduty.com/warzone/strategyguide/basic-training/Tutorials" target="_blank">here</a></p>
+        <br>
+        <h4>Recent Updates</h4>
+        <p>NEW MAP TEASER: Today, February 11, 2021, players have discovered that in the Warzone Rumble playlist, a mysterious computer, or more specifically the Trials computer from Black Ops Cold War Zombies has appeared inside of Verdansk’s hospital.
+
+        The computer currently has no known function, and merely shows the string “ZAI/Activate_Zombies” to the player when approached. When interacted with, there seems to be no effect.</p>
+        <br>
+        <p>In addition to this, players are now coming in contact yet again with static screen overlays while adventuring through the Rebirth Island Warzone map. Morse code can be heard in the background, as well as the sound of marching.</p>
+        <br>
+        <p>CHEATERS ARE HIT WITH ANOTHER BAN WAVE: Recently, Raven has started communicating more with the Call of Duty community after the recent banning of over 60,000 Warzone cheaters.
+
+This comes after months of community backlash regarding Warzone’s anti-cheat and the game’s overall state and competitive integrity. Cheaters in-game have seemingly gone unpunished for months, and high-tier play has been infested with obvious aimbotters and wallhackers.
+
+The issue has compounded so harshly, it has led to content creators and streamers reaching breaking points. Streamers like NICKMERCS and Symfuhny quit competitive Warzone entirely, and frustrated players like Bobbypoff had meltdowns on stream.</p>
+        <br>
+        <p>HOW TO REDUCE FILE SIZE: As updates have arrived for the Call of Duty reboot, the game’s already large file size has continued to grow, especially on PC. In order to combat this, mode-specific uninstall options were added in October, which allowed players to select which Modern Warfare modes they want to have installed – to accommodate Warzone’s ever-increasing size.
+
+Now, further changes have been made to reduce the game’s sizable files on your hard drive. Texture Streaming was “developed to reduce the game’s overall package size by removing certain textures rarely used or encountered by players.”
+
+With Warzone set to remain ‘front and center’ for the Call of Duty franchise for a long time to come, there’s a good chance that players will always need room for both the battle royale shooter, and the latest CoD title.          </p>
+        <br>
+        <p>Instead of having Texture Packs installed, high-resolution textures on Operators and Weapons will now be streamed to your PC’s cache as needed. By streaming textures instead of having them installed, the game’s file size will be reduced.</p>
     </div>
   </div>
   <div class="rightcolumn">
@@ -58,7 +96,7 @@
         </a>
         <br>
         <a href="https://playvalorant.com/en-gb/" target="_blank">
-            <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt85aff7bf01140acc/5e572c0309113f0d3a852224/share.jpg" width="80%" height="280" alt="Valorant"/>
+            <img src="https://cdn.vox-cdn.com/thumbor/FO53tW5sAM29tvN4Qz1_MWqces0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/66414722/VALORANT_phx_jett.0.jpg" width="80%" height="400px" alt="Valorant"/>
         </a>
     </div>
       <br>
