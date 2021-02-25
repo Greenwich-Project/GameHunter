@@ -1,186 +1,218 @@
 
-
 *{
 /* background-color: grey; */ 
-    letter-spacing: 4px;
-    
-    
+    letter-spacing: 1px; 
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;  
 }
 
-.container{
+ .container{
   display: flex;
     flex-direction: row;
 justify-content: space-evenly;
     align-items: center;
     text-align: center;
-min-height: 50vh;
+min-height: 50vh;  
+}
+
+img{
+    object-fit: fill; 
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background: #f1f1f1;
+
+}
+
+
+
+/* HEADER CODE*/
+.header {
+  text-align: center;
+    height: 280px;
+     background-image: url(https://coverfiles.alphacoders.com/699/69989.png);
+    background-size: contain;
+    
+}
+.header img{
+    height: auto;
+   /* display:grid;*/
+    display: block;
+  margin-left: 20px;
+  margin-right: auto;
+  width: 15%;
+}
+
+.header h2{
+    font: 50px;
+    width: 630px;
+    color: #FFF9E9;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 15px;
     
     
+}
+
+/*NAVIGATION BAR CODE*/
+/* Style top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.homebutton{ 
+width: 200px;
+height: 50px;
+margin: 10px;
+border: none;
+color: blanchedalmond;
+background-color: #5c95fc;
+border-radius: 5px;
+box-shadow: inset 0 0 0 0 #f9e508;
+transition: ease-out 0.4s;
+font-size: 1rem;
+outline: none;
+    
+}
+.homebutton:hover{
+box-shadow: inset -300px 0 0 0 #F93636;    
+cursor: pointer;
+}
+
+.homebutton a{
+    display: block;
+width: 200px;
+height: 50px;
+    color: blanchedalmond;
+line-height: 50px;
 }
 
 .ps4button{
 width: 200px;
 height: 50px;
+    margin: 10px;
 border: none;
-color: white;
-background-color: darkturquoise;
+color: blanchedalmond;
+background-color: #5c95fc;
 border-radius: 5px;
-box-shadow: inset 0 0 0 0 blue; /* mix different colour*/ 
+box-shadow: inset 0 0 0 0 #f9e508; /* mix different colour*/ 
 transition: ease-out 0.4s;
 font-size: 1rem;
-outline: none;  
-    
-    
+outline: none;    
 }
 
 .ps4button:hover{
-box-shadow: inset -300px 0 0 0 #f9e508;    
- cursor: pointer;
-
-        
+box-shadow: inset -300px 0 0 0 #0554f6;    
+ cursor: pointer;      
 }
-
-
-
-
-
+.ps4button a{
+        display: block;
+width: 200px;
+height: 50px;
+color: blanchedalmond;
+line-height: 50px;
+}
 
 .Xboxbutton{
 width: 200px;
 height: 50px;
 border: none;
-color: white;
-background-color: darkturquoise;
-border-radius: 5px;
-box-shadow: inset 0 0 0 0 green;
-transition: ease-out 0.4s;
-font-size: 1rem;
-outline: none;   
-
-    
-}
-
-.Xboxbutton:hover{
- box-shadow: inset -300px 0 0 0 #f9e508;    
- cursor: pointer;   
-    
-    
-    
-}
-
-
-.PCbutton{
- width: 200px;
-height: 50px;
-border: none;
-color: white;
-background-color: darkturquoise;
-border-radius: 5px;
-box-shadow: inset 0 0 0 0 orange;
-transition: ease-out 0.4s;
-font-size: 1rem;
-outline: none;   
-    
-    
-    
-    
-}
-
-.PCbutton:hover{
-  box-shadow: inset -300px 0 0 0 #f9e508;    
- cursor: pointer;      
-    
-    
-    
-}
-
-
-
-
- /* .MenuButton{
- width: 200px;
-height: 50px;
-border: none;
-color: white;
-background-color: darkturquoise;
+    margin: 10px;
+color: blanchedalmond;
+background-color: #5c95fc;
 border-radius: 5px;
 box-shadow: inset 0 0 0 0 #f9e508;
 transition: ease-out 0.4s;
 font-size: 1rem;
 outline: none;   
+    
+}
+.Xboxbutton a{
+    display: block;
+width: 200px;
+height: 50px;
+color: blanchedalmond;
+line-height: 50px;
 }
 
-.MenuButton:hover{
-  box-shadow: inset -300px 0 0 0 #f9e508;    
+.Xboxbutton:hover{
+ box-shadow: inset -300px 0 0 0 green;    
+ cursor: pointer;   
+  
+}
+
+.PCbutton{
+ width: 200px;
+height: 50px;
+margin: 10px;
+border: none;
+color: blanchedalmond;
+background-color: #5c95fc;
+border-radius: 5px;
+box-shadow: inset 0 0 0 0 #f9e508;
+transition: ease-out 0.4s;
+font-size: 1rem;
+outline: none;     
+}
+
+.PCbutton:hover{
+  box-shadow: inset -300px 0 0 0 #fc9835;    
  cursor: pointer;      
-    
-    
-} IGNORE OLD MENU BUTTON CLASS */ 
-
-
-/* Main menu container */ 
+}   
 .dropdown{
 overflow: hidden;
 float: left;
+    position:  ;
 }
-
-
 /* Main menu button */ 
  .menudropbutton{
-    
-  width: 200px;
+float: left;
+width: 200px;
 height: 50px;
 border: none;
-color: white;
-background-color: var(--navbarblue);
+color: blanchedalmond;
+background-color: #5c95fc;
 border-radius: 5px;
 transition: ease-out 0.4s;
 font-size: 1rem;
 outline: none; 
-margin: 0;    
+margin: 10px; 
 cursor: pointer;
-    
-    
-    
-    
-    
-}
-
-
-.dropdown:hover .menudropbutton{
-
-    box-shadow: inset -200px 0 0 0 #F51E17;
-    
 }
 
 /* Main menu drop down content */ 
 
 .dropdowncontent{
    display: none;
-position: absolute;
+position: relative;
 background-color: var(--navbarblue);
-    min-width: 150px; 
-  
+    min-width: 150px;
+
 z-index: 1;
 
 }
 
 .dropdowncontent a{
- float: none;
+float: none;
 color: black;
+    position: static;
+margin 1px;
 padding: 10px 12px;
+    color: blanchedalmond;
 text-decoration: none;
 display: block;
 text-align: left;
-    
+
 }
-
-
 .dropdowncontent a:hover{
     background-color: var(--mainhovercolour);
+    color: #F02922;
     opacity: 80%;
-    
-    
 }   
 
 .dropdown:hover .dropdowncontent{
@@ -208,7 +240,7 @@ text-align: left;
      opacity: 80%;
     cursor: pointer;
 
-     
+
   }
   .play-button-before {
     clip-path: polygon(0 0, 50% 25%, 50% 75%, 0% 100%);
@@ -218,14 +250,196 @@ text-align: left;
   }
   #play-button-container:hover .play-button-before {
     clip-path: polygon(0 0, 30% 0, 30% 100%, 0% 100%);
-      
+
   }
   #play-button-container:hover .play-button-after{
     clip-path: polygon(70% 0, 100% 0, 100% 100%, 70% 100%);
-          
+
   }
 
 
 
 
+/*COLUMN 
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 70%;
+    
+}
 
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 30%;
+
+  padding-left: 20px;
+}
+.rightcolumn img{
+    width: 30em;
+    height:a;
+}
+
+/* XBOX CARD EFFECTS */
+.cardXbox{
+  background-color: rgba(148, 146, 153, 0.1);
+  padding: 20px;
+    height 500px;
+    width: 600px;
+  margin-top: 20px;
+}
+.cardXbox img{
+    width: 35em;
+}
+.cardXbox p{
+text-align: left;
+    color: #FFF9E9;
+        }
+.cardXbox h2{
+    font-size: 18px;
+    color: #80d106;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* PS4 CARD EFFECTS */
+.cardPS4{
+  background-color: rgba(148, 146, 153, 0.1);
+  padding: 20px;
+    height 500px;
+    width: 600px;
+  margin-top: 20px;
+}
+.cardPS4 img{
+    width: 35em;
+}
+.cardPS4 p{
+text-align: left;
+    color: #FFF9E9;
+        }
+.cardPS4 h2{
+    font-size: 18px;
+    color: #99BEFF;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgba(148, 146, 153, 0.1);
+  padding: 20px 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.card p{
+    color: #FFF9E9;
+}
+.card h5{
+    font-size: 18px;
+    color: #fc9835;
+    font-weight: bold;
+}
+.card h4{
+    color: #fc9835;
+}
+.card h2{
+    color: #cf5207;
+}
+.card a{
+    color:#FFF9E9;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.row{
+   background-color: #383838;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*FOOTER CODE */
+.footer-basic {
+  padding:40px 0;
+  background-color:#18181a;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:2px;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+  color: blanchedalmond;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+    color: #F02922;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
